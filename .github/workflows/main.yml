@@ -27,7 +27,7 @@ jobs:
         node.version: 12
     - name: Install Surge
       run: npm install --global surge
-    #-name: Run Surge
-      #run: surge ./ hassanrza.surge.sh --token "caf5d9ac322d22b254faf1b4b9d539e3"
+    - name: Run Surge
+      run: surge ./ hassanrza.surge.sh --token "caf5d9ac322d22b254faf1b4b9d539e3"
      
       
